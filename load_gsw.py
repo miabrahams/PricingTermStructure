@@ -1,5 +1,6 @@
 import pandas as pd
-from pandas.core.datetools import *
+import numpy as np
+from pandas.tseries.offsets import *
 
 # Load Gurkaynak, Sack, Wright dataset.
 # This data is extracted from here: https://www.federalreserve.gov/pubs/feds/2006/200628/200628abs.html
